@@ -25,21 +25,26 @@ header {
   animation: fadeInDown 0.8s ease-out;
 }
 
+/* Untuk logo UNY */
 .logo-uny img {
   height: 50px;
   margin-left: 10px;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .logo-uny img:hover {
   transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
 }
 
+/* Untuk logo KKN */
 .logo-kkn img {
   height: 60px;
   margin-top: 5px;
   margin-left: 10px;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .logo-kkn img:hover {
@@ -280,15 +285,15 @@ footer p {
 }
 
 footer a {
-  color: #fff; /* Warna teks tautan putih */
-  text-decoration: none; /* Menghapus garis bawah tautan */
+  color: #fff;
+  text-decoration: none;
 }
 
 footer i {
   font-size: 24px;
-  margin: 0 10px; 
-  vertical-align: middle; 
-  color: #fff; 
+  margin: 0 10px;
+  vertical-align: middle;
+  color: #fff;
   cursor: pointer;
 }
 
