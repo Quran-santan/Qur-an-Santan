@@ -3,7 +3,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #449643;
+  /* background-color: #449643; */
+  background: linear-gradient(90deg, #019d52, #00605b);
 }
 
 /* header {
@@ -15,7 +16,8 @@ body {
 } */
 
 header {
-  background-color: #449643;
+  /* background-color: #449643; */
+  background: linear-gradient(90deg, #019d52, #00605b);
   color: #fff;
   display: flex;
   justify-content: space-between;
