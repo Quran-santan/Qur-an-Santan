@@ -67,7 +67,6 @@ document.addEventListener("DOMContentLoaded", function () {
             ayatDiv.innerHTML = `
                             <h3>Ayat ${ayat.nomorAyat}</h3>
                             <p>${ayat.teksArab}</p>
-                            <h4>${ayat.teksLatin}</h4>
                             <h5>${ayat.teksIndonesia}</h5>
                             <audio controls>
                             <source src="${ayat.audio["05"]}" type="audio/mpeg">

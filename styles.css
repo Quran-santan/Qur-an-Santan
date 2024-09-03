@@ -210,14 +210,14 @@ p {
   animation: fadeInDown 1s forwards;
 }
 
-.ayat h4 {
+/* .ayat h4 {
   margin: 0;
   font-size: 1.2rem;
   margin-top: 10px;
   font-style: italic;
   color: #129680;
   animation: fadeInDown 1s forwards;
-}
+} */
 
 .ayat p {
   margin: 20px 0;
@@ -376,7 +376,7 @@ footer i:hover {
     position: fixed;
     top: 78px;
     left: 0;
-    bottom: 50px;
+    bottom: 60px;
     z-index: 2000;
   }
 
